@@ -1,24 +1,26 @@
 # IMC
-nome = str(input ('Qual seu nome?: '))
-peso = float (input ('Qual seu peso(kg)?: '))
-altura = float (input ('Qual sua altura(m)?: '))
-imc = (peso/(altura*altura))
-print ('Seu IMC é: {:.2f} e você está'.format(imc))
+nome = str(input('Digite seu nome: '))
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura: '))
+imc = peso/(altura ** 2) 
 if (imc<17):
-    print("muito abaixo do peso!")
-elif (imc>17 and imc<18.5):
-    print("abaixo do peso!")
-elif (imc>18.5 and imc<25.0):
-    print("com peso normal!")
-elif (imc>25.0 and imc<30):
-    print("acima do peso!")
+    print("seu IMC é {:.2f} e Você está muito abaixo do peso!".format(imc))
+
+elif (imc>17 and imc<=18.5):
+    print("seu IMC é {:.2f} e  Você está abaixo do peso!".format(imc))
+
+elif (imc>18.5 and imc<=25.0):
+    print("seu IMC é {:.2f} e  Você está dentro da faixa de peso considerada normal pelo IMC!".format(imc))
+
+elif (imc>25.0 and imc<=30):
+    print("seu IMC é {:.2f} e  Você está acima do peso!".format(imc))
+
 else: 
-    print("muito acima do peso!")
+    print("seu IMC é {:.2f} e  Você está obeso!".format(imc)))
     
     
 # EXEMPLO
-Qual seu nome?:
-Qual seu peso(kg)?:
-Qual sua altura(m)?:
-Seu IMC é: 26.84 e você está
-acima do peso!
+Digite seu nome: mari
+Digite seu peso: 62
+Digite sua altura: 1.53
+seu IMC é 26.49 e  Você está acima do peso!
