@@ -1,26 +1,22 @@
-# IMC
-nome = str(input('Digite seu nome: '))
-peso = float(input('Digite seu peso: '))
-altura = float(input('Digite sua altura: '))
-imc = peso/(altura ** 2) 
-if (imc<17):
-    print("seu IMC é {:.2f} e Você está muito abaixo do peso!".format(imc))
+# ÍNDICE DE MASSA CORPORAL (IMC)
 
-elif (imc>17 and imc<=18.5):
-    print("seu IMC é {:.2f} e  Você está abaixo do peso!".format(imc))
+O índice de massa corporal (IMC) é a medida utilizada para definir características antropométricas de peso e altura em adultos e classificá-los por meio de divisão em grupos. A interpretação comum é que o IMC representa o índice de gordura de um indivíduo. [1][ref1]
 
-elif (imc>18.5 and imc<=25.0):
-    print("seu IMC é {:.2f} e  Você está dentro da faixa de peso considerada normal pelo IMC!".format(imc))
-
-elif (imc>25.0 and imc<=30):
-    print("seu IMC é {:.2f} e  Você está acima do peso!".format(imc))
-
-else: 
-    print("seu IMC é {:.2f} e  Você está obeso!".format(imc)))
+O cálculo matemático é feito através da fórmula:
+    > IMC = peso/altura²
     
-    
-# EXEMPLO
-Digite seu nome: mari
-Digite seu peso: 62
-Digite sua altura: 1.53
-seu IMC é 26.49 e  Você está acima do peso!
+## Projeto Python
+
+Este projeto foi criado para desenvolver um software em Python que calcule o IMC e gere o resultado por categoria. 
+
+## Exemplos
+
+Para exemplos, visite nosso [wiki][ref2]! 
+
+## Referências
+
+:memo: [Link 1][ref1]
+       [Link 2][ref2]
+       
+[ref1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890841/pdf/nt-50-117.pdf
+[ref2]: https://github.com/pylearners/IMC/wiki/%C3%8Dndice-de-massa-corporal-(IMC)
