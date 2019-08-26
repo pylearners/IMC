@@ -1,6 +1,6 @@
 # ÍNDICE DE MASSA CORPORAL (IMC)
 
-O índice de massa corporal (IMC) é a medida utilizada para definir características antropométricas de peso e altura em adultos e classificá-los por meio de divisão em grupos. A interpretação comum é que o IMC representa o índice de gordura de um indivíduo. [1][ref1]
+O índice de massa corporal (IMC) é a medida utilizada para definir características antropométricas de peso e altura em adultos e classificá-los por meio de divisão em grupos. A interpretação comum é que o IMC representa o índice de gordura de um indivíduo. [¹][ref1]
 
 O cálculo matemático é feito através da fórmula:
     > IMC = peso/altura²
